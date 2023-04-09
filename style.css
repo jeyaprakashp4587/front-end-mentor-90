@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 800px 600px;
+    grid-template-rows: 800px;
+    border: 1px solid red;
+}
+.left{
+    /* / */
+}
+.content{
+    padding: 2rem 9rem;
+}
+#svg{
+    position: absolute;
+    z-index: -1;
+    /* transform: rotate(-20deg); */
+}
+#logo{
+    filter: grayscale(50);
+}
+.right{
+    background: url("https://i.ibb.co/GRPFqGb/hero-desktop.jpg");
+    background-repeat: no-repeat;
+}
